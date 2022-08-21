@@ -8,10 +8,9 @@
 
 
 
-<content class="artboard ">
+<content class="hero ">
   <slot />
 </content>
 
 <footer class="footer-center">
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
 </footer>

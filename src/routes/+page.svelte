@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Counter from '$lib/Counter.svelte';
 </script>
 
 <svelte:head>
@@ -7,6 +6,8 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<h1>
-	Welcome to your new<br />SvelteKit app
-</h1>
+<div class="mt-4 mockup-window border border-base-300">
+	<div class="flex justify-center px-4 py-16 border-t border-base-300">
+		<h1>This site is still in construction 🛠️.</h1>
+	</div>
+</div>
