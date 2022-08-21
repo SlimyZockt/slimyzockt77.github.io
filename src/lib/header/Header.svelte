@@ -1,8 +1,3 @@
-<script lang="ts">
-	import { page } from '$app/stores';
-	import logo from './svelte-logo.svg';
-</script>
-
 <div class="navbar bg-base-300 border-b border-base-200 shadow">
 	<div class="flex-1">
 		<a class="btn btn-ghost normal-case text-xl" href="/">SlimyNgo</a>
