@@ -6,7 +6,12 @@ declare namespace App {
 		userid: string;
 	}
 
-	// interface Platform {}
+	interface Platform {
+		env ?: {
+			YOUR_KV_NAMESPACE: KVNamespace;
+			YOUR_DURABLE_OBJECT_NAMESPACE: DurableObjectNamespace;
+		};
+	}
 
 	// interface PrivateEnv {}
 
